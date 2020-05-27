@@ -75,8 +75,8 @@ section {
 
 #person {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-template-rows: 450px auto;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 500px auto;
     /* grid-gap: 10px; */
     padding: 40px;
     animation: person_ani 4s 1;
@@ -131,11 +131,13 @@ section {
 }
 
 .picture {
-    background-image: url(https://www.trikeys.com/wp-content/uploads/2018/10/desinger-01.png);
+    background-image: url(DSC_1998.jpg);
     background-size: cover;
     background-position: center center;
     animation: picture_ani 3s 1;
     animation-duration: 4s;
+    border-radius: 50%;
+    opacity: .9;
 }
 
 @keyframes picture_ani {
@@ -233,17 +235,24 @@ section {
     padding-top: 40px;
 }
 
+.projectItem h5 {
+    font-size: 1em;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
 .projectItem p {
     font-size: 2em;
     padding-left: 20px;
     padding-top: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .projectItem a {
-    font-size: 1.2em;
+    font-size: 1em;
     color: white;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 20px;
 }
 

@@ -1,6 +1,12 @@
 // skrollr 初始化
 
-var s = skrollr.init();
+
+if($(window).width() > 767)
+{
+  var s = skrollr.init();
+} else {
+  break;
+}
 
 
 // jquery smooth scroll
