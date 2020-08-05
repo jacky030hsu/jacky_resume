@@ -189,6 +189,7 @@ section {
     color: #ffffff;
     transition: 1s;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .projectItem:hover {
@@ -315,8 +316,9 @@ section {
 
 .skill-box li {
     list-style: none;
-    font-size: 1.17em;
+    font-size: 1.3em;
     margin-top: 10px;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -493,7 +495,7 @@ footer {
 
 .inlineItem {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     align-items: center;
 }
 
@@ -532,3 +534,8 @@ footer {
     color : #ff4757;
 }
 
+
+.point {
+    font-weight: 900;
+    color: red;
+}
