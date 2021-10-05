@@ -726,7 +726,7 @@ section {
 
 /* project 作品集區塊---------------------------------------------- */
 
-#project {
+#works {
     /* outline: solid 1px black; */
     padding: 40px;
     padding-right: 0;
@@ -734,7 +734,7 @@ section {
     letter-spacing: 3px;
 }
 
-#project h1 {
+#works h1 {
     font-size: 4em;
 }
 
@@ -838,7 +838,7 @@ section {
 
 /* intro 自介區塊---------------------------------------------- */
 
-#intro {
+#about {
     /* outline: solid 1px black; */
     padding: 40px;
     padding-right: 0;
@@ -846,21 +846,21 @@ section {
     letter-spacing: 3px;
 }
 
-#intro h1 {
+#about h1 {
     font-size: 4em;
 }
 
-#intro h2 {
+#about h2 {
     margin-top: 50px;
     text-align: center;
     font-size: 2.5em;
 }
 
-#intro .bigH2 {
+#about .bigH2 {
     margin-top: 0px;
 }
 
-#intro h3 {
+#about h3 {
     margin-top: 20px;
     text-align: center;
     font-weight: normal;
@@ -890,7 +890,7 @@ section {
 }
 
 @media (max-width: 768px) {
-    #intro h1 {
+    #about h1 {
         font-size: 3em;
         text-align: center;
     }
